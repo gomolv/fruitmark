@@ -1,0 +1,39 @@
+{
+  "name": "fruitmark",
+  "version": "1.0.0",
+  "description": "fruitmark back-end project",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "fruitmark",
+    "nodejs",
+    "reactive",
+    "TDF",
+    "back-end"
+  ],
+  "author": "Juan Josué Gómez Olvera",
+  "license": "ISC",
+  "dependencies": {
+    "D": "^1.0.0",
+    "accesscontrol": "^2.2.1",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.12",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.1.3",
+    "nodemon": "^2.0.14",
+    "supertest": "^6.1.6"
+  }
+}
